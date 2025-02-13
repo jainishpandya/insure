@@ -132,13 +132,17 @@ html {
     align-items: center;
 }
 
-.section-1-row-2-head {
+.section-hero .head {
     font-weight: 700;
 }
 
+.section-hero .desc{
+    font-weight: 500;
+}
+
 .section-1-images {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 100%;
 }
 
 .section-1-btn {
@@ -157,21 +161,7 @@ html {
     border: 1px solid rgb(172, 172, 172);
 }
 
-.section-1-next-btn {
-    position: relative;
-    right: 0;
-    top: 0;
-    margin: 0;
-    scale: 0.5;
-    padding: 40px;
-    border-radius: 50%;
-
-    background-color: var(--background-color);
-    color: var(--text-color);
-    border: 1px solid rgb(172, 172, 172);
-}
-
-.section-1-button-btn {
+.section-hero .discover-button {
     background-color: var(--secondary-color);
     color: white !important;
     font-size: 14px;
@@ -631,12 +621,10 @@ html {
     overflow: visible;
 }
 .section-testomonial .card-item {
-    width: calc(98% / 2) !important;
+    width: calc(90% / 2) !important;
     position: relative;
     border-radius: 56px;
-    -webkit-box-shadow: 14px 14px 15px -16px rgba(0,0,0,0.75);
-    -moz-box-shadow: 14px 14px 15px -16px rgba(0,0,0,0.75);
-    box-shadow: 14px 14px 15px -16px rgba(0,0,0,0.75);
+    margin-inline: 4%;
 }
 
 .section-testomonial .card{
@@ -645,6 +633,10 @@ html {
     height: 100%;
     padding: 30px;
     overflow: visible;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 16px -3px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 0px 0px 16px -3px rgba(0, 0, 0, 0.34);
+    box-shadow: 0px 0px 16px -3px rgba(0, 0, 0, 0.34);
 }
 
 .section-testomonial .card-item .card .card-img-top {
@@ -661,6 +653,7 @@ html {
 
 .section-testomonial .card-item .card .card-post{
     font-size: 14px;
+    color: var(--secondary-color);
 }
 
 .section-testomonial .card-item .card .card-body {
@@ -669,8 +662,9 @@ html {
 
 .section-testomonial .card-item .card .card-body .card-title {
     font-size: 16px;
-    font-weight: 400;
-    color: var(--primary-color);
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--primary-light-color);
 }
 
 .section-7-card-design {
@@ -683,8 +677,10 @@ html {
 /* section 8 */
 .section-estimation {
     margin-top: 120px;
+    background-color: #f7f7f7;
     background-image: url('../images/section-8/section-background.png');
     position: relative;
+    
 }
 
 .section-estimation .smallhead {
@@ -714,21 +710,37 @@ html {
     right: 0;
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: -1;
+    z-index: 0;
 
 }
-
+.nav-tabs {
+    border: 0px;
+    margin-left: -2px;
+}
 .nav-link {
     background-color: var(--background-color);
-    border-radius: 0px 25px 0px 0px !important;
+    border-radius: 0px 36px 0px 0px !important;
     font-weight: 500;
-    padding-inline: 20px;
-    z-index: 1;
+    padding: 24px 32px 24px 32px;
+}
+.nav-item{
+    z-index: 2;
 }
 
 .nav-tabs .nav-link {
     background-color: var(--background-color);
-    color: var(--text-color);
+    color: var(--primary-light-color);
+    text-align: center;
+}
+.nav-tabs .nav-link::before{
+    content: "•";
+    color: var(--primary-light-color);
+    font-size: 20px;
+    padding-inline: 4px;
+    height: 100%;
+}
+.nav-tabs .nav-link.active::before{
+    color: var(--background-color);
 }
 
 .nav-tabs .nav-link.active {
@@ -739,19 +751,42 @@ html {
 .section-estimation .tab-body {
     background-color: var(--background-color) !important;
     z-index: 1;
+    position: relative;
     margin-bottom: 120px;
     border-radius: 0px 16px 16px 16px;
     border: 0;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .section-estimation .tab-img {
-    max-width: 90%;
+    max-width: 100%;
 }
 
 .section-estimation .qoute-btn {
     background-color: var(--secondary-color);
     border-radius: 12px;
+    padding: 12px 42px;
+    font-weight: 500;
+}
+
+.section-estimation .tab-content .tab-body .form-control{
+    background-color: #f5f5f5;
+    border: 0px;
+    padding: 16px 20px;
+    border-radius: 12px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.section-estimation .tab-content .tab-body .form-select{
+    background-color: #f5f5f5;
+    border: 0px;
+    padding: 16px 20px;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+.section-estimate .tab-pane .tab-body .tab-title{
+    font-weight: 800;
 }
 
 
@@ -908,6 +943,7 @@ html {
     padding: 30px;
     position: relative;
     overflow: hidden;
+    z-index: 1;
 }
 
 .footer-1 .gallary-images img {
@@ -934,11 +970,10 @@ html {
 .footer-1 .row-1-inputfield {
     background-color: var(--background-color);
     opacity: 0.16;
-    color: var(--background-color);
 }
 
-.footer-1 .row-1-input {
-    color: white;
+.footer-1 .row-1-inputfield input {
+    opacity: 100%;
 }
 
 .footer-1 .row-1-input .input-arrow {
@@ -1006,6 +1041,7 @@ html {
     top: 0;
     left: 0;
     max-height: 120%;
+    z-index: -1 !important;
 }
 
 .footer-1 .background-2 {
@@ -1013,6 +1049,7 @@ html {
     top: 0;
     right: 0;
     max-width: 100%;
+    z-index: -1 !important;
 }
 
 
