@@ -371,7 +371,9 @@ html {
 
 .swiper-pagination1 {
     position: relative;
+    background-color: var(--accent-color);
 }
+
 
 .swiper-pagination .swiper-pagination-progressbar-fill{
     background-color: var(--secondary-color);
