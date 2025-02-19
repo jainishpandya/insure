@@ -79,13 +79,13 @@ html {
     content: " ";
     display: inline-block;
     height: 100%;
-    width: 100%;
+    width: 95%;
     background-color: var(--secondary-color);
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0;
     border-radius: 0px 12px 0px 0px;
-    transform: skewX(24deg);
+    transform: skewX(28deg);
     z-index: -1;
 }
 
