@@ -25,13 +25,13 @@ html {
     content: " ";
     display: inline-block;
     height: 100%;
-    width: 95%;
+    width: 100%;
     background-color: var(--primary-color);
     position: absolute;
-    left: 0;
+    right: 0;
     top: 0;
     border-radius: 0px 12px 0px 0px;
-    transform: skewX(28deg);
+    transform: skewX(24deg);
 }
 
 .topbar-section-2 {
