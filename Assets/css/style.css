@@ -373,6 +373,9 @@ html {
     position: relative;
 }
 
+.swiper-pagination .swiper-pagination-progressbar-fill{
+    background-color: var(--secondary-color);
+}
 .section-services .card-list .card-item {
     max-width: calc(100% / 3);
     border-radius: 22px;
