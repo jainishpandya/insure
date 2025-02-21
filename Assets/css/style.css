@@ -913,7 +913,7 @@ html {
     position: absolute;
     background-color: var(--background-color);
     top: -15%;
-    border-radius: 40% 40% 0px 0px;
+    border-radius: 50% 50% 0px 0px;
     padding: 8px;
     right: 0;
     max-width: 15%;
