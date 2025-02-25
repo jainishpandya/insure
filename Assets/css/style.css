@@ -11,6 +11,20 @@ html {
     /* Optional: overflow-y: auto; to allow vertical scrolling if needed */
 }
 
+.smallhead{
+    font-weight: 500;
+    color: var(--primary-light-color);
+}
+
+.smallhead i {
+    color: var(--secondary-color);
+}
+
+.mainhead{
+    color: var(--text-color);
+    font-weight: 600;
+}
+
 .top-bar {
     background-color: var(--accent-color);
     max-height: 52px;
@@ -261,19 +275,6 @@ html {
     right: 18%;
 }
 
-.section-aboutus .smallhead {
-    font-weight: 500;
-    color: var(--primary-light-color);
-}
-
-.section-aboutus .smallhead i {
-    color: var(--secondary-color);
-}
-
-.section-aboutus .mainhead {
-    font-weight: 500;
-}
-
 .section-aboutus .description {
     color: var(--primary-light-color);
     font-weight: 500;
@@ -332,18 +333,7 @@ html {
 }
 
 .section-services .smallhead {
-    font-weight: 600;
-    color: var(--primary-light-color);
     margin-top: 120px;
-}
-
-.section-services .smallhead i {
-    color: var(--secondary-color);
-}
-
-.section-services .mainhead {
-    color: var(--text-color);
-    font-weight: 500;
 }
 
 .swiper-1 {
@@ -467,12 +457,10 @@ html {
 }
 
 .section-discover .smallhead {
-    font-weight: 500;
     color: var(--accent-color);
 }
 
 .section-discover .mainhead {
-    font-weight: 500;
     color: var(--background-color);
 }
 
@@ -519,7 +507,6 @@ html {
 }
 
 .section-whychooseus .smallhead {
-    font-weight: 500;
     color: var(--accent-color);
 }
 
@@ -529,7 +516,6 @@ html {
 
 .section-whychooseus .mainhead {
     color: var(--background-color);
-    font-weight: 500;
 }
 
 .section-whychooseus .description {
@@ -611,19 +597,6 @@ html {
     margin-top: 120px;
 }
 
-.section-testomonial .smallhead {
-    font-weight: 600;
-    color: var(--primary-light-color);
-}
-
-.section-testomonial .smallhead i {
-    color: var(--secondary-color);
-}
-
-.section-testomonial .mainhead {
-    color: var(--text-color);
-    font-weight: 500;
-}
 .section-testomonial .card-list{
     overflow: visible;
 }
@@ -691,21 +664,8 @@ html {
 }
 
 .section-estimation .smallhead {
-    font-weight: 600;
-    color: var(--primary-light-color);
     margin-top: 120px;
 }
-
-.section-estimation .smallhead i {
-    color: var(--secondary-color);
-}
-
-.section-estimation .mainhead {
-    color: var(--text-color);
-    font-weight: 700;
-}
-
-
 
 .section-estimation .section-background-img {
     background-image: url('../images/section-8/section-half-bg.png');
@@ -807,18 +767,7 @@ html {
 }
 
 .section-team .smallhead {
-    font-weight: 600;
-    color: var(--primary-light-color);
     margin-top: 120px;
-}
-
-.section-team .smallhead i {
-    color: var(--secondary-color);
-}
-
-.section-team .mainhead {
-    color: var(--text-color);
-    font-weight: 700;
 }
 
 .swiper-4 {
@@ -872,18 +821,7 @@ html {
 }
 
 .section-articles .smallhead {
-    font-weight: 600;
-    color: var(--primary-light-color);
     margin-top: 120px;
-}
-
-.section-articles .smallhead i {
-    color: var(--secondary-color);
-}
-
-.section-articles .mainhead {
-    color: var(--text-color);
-    font-weight: 700;
 }
 
 .article-slides {
