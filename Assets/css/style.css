@@ -879,9 +879,17 @@ html {
     border: 0;
 }
 
+.section-team .card-list .card-body {
+    background-color: white;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    border-radius: 0px 0px 22px 22px;
+}
+
 .section-team .card-list .card-item .card .card-img-top {
-    border-radius: 22px 22px 0px 0px;
-    max-height: 100%;
+    border-radius: 22px;
+    max-width: 100%;
 }
 
 .section-team .card-list .card-item .card .button-share {
