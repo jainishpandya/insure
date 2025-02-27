@@ -1013,17 +1013,26 @@ html {
 }
 
 .footer-1 .row-1-inputfield {
-    background-color: var(--background-color);
-    opacity: 0.16;
+    background-color: #444458;
+    border: 0px;
+    padding: 16px 24px;
+    color: white !important;
 }
 
 .footer-1 .row-1-inputfield input {
     opacity: 100%;
 }
 
+.footer-1 .row-1-inputfield::placeholder{
+    color: var(--primary-light-color);
+    opacity: 1;
+}
+
 .footer-1 .row-1-input .input-arrow {
     background-color: var(--secondary-color);
     border-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 12px;
 }
 
 .footer-1 .row-1-input .input-arrow i {
