@@ -250,6 +250,7 @@ html {
 
 .section-features .card .card-body .card-text {
     font-size: 1.1rem;
+    line-height: 2.15rem;
     color: var(--primary-light-color);
 
 }
