@@ -414,6 +414,8 @@ html {
 
 
 .swiper-pagination1 {
+    margin: 40px 0px 0px 0px;
+    max-height: 2px;
     position: relative;
     background-color: var(--accent-color);
 }
