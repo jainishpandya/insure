@@ -28,6 +28,13 @@ html {
     font-size: 2.5rem;
 }
 
+
+@media screen and ( max-width: 1400px ) {
+    .mainhead {
+        font-size: 1.8rem;
+    }
+}
+
 .top-bar {
     background-color: var(--accent-color);
     max-height: 52px;
@@ -116,6 +123,8 @@ html {
     margin-top: -25px;
 }
 
+
+
 .btn-nav {
     color: var(--accent-color);
     font-size: 16px;
@@ -144,6 +153,20 @@ html {
 .navbar-section-2 {
     margin-left: -20px;
 }
+
+/* Responsive Design for Small Screen */
+@media screen and (max-width: 1400px) {
+    .navbar-logo{
+        max-height: 130%;
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+    .navbar-section-logo{
+        margin-inline: 20px;
+    }
+}
+
+
 
 /* Section 1 */
 .section-hero {
@@ -225,6 +248,21 @@ html {
     z-index: 1;
 }
 
+@media screen and (max-width: 1400px) {
+    .section-hero .head {
+        font-size: 3.125rem;
+        font-weight: 700;
+    }
+
+    .section-hero .swiper-button-next {
+        background-size: 50% auto;
+    }
+
+    .section-hero .swiper-button-prev{
+        background-size: 50% auto;
+    }
+}
+
 
 /* Section 2 */
 .section-features {
@@ -271,6 +309,24 @@ html {
 .section-features .card-center .card-text {
     color: var(--accent-color) !important;
 }
+
+
+@media screen and (max-width: 1400px) {
+    .section-features .card .card-body .card-img-top{
+        max-width: 70px;
+    }
+    .section-features .card .card-title {
+        font-size: 1.15rem;
+        font-weight: 700;
+    }
+    .section-features .card .card-body .card-text {
+        font-size: .85rem;
+        line-height: 1.8rem;
+    }
+}
+
+
+
 
 
 /* Section - 3 */
@@ -324,6 +380,7 @@ html {
 .section-aboutus .description {
     color: var(--primary-light-color);
     font-weight: 600;
+    font-size: 1rem;
 }
 
 .section-aboutus .feature .feature-icon {
@@ -337,6 +394,7 @@ html {
 .section-aboutus .feature .feature-description {
     font-weight: 600;
     color: var(--primary-light-color);
+    font-size: 1rem;
 }
 
 
@@ -367,6 +425,20 @@ html {
     font-weight: 700;
 }
 
+@media screen and (max-width: 1400px) {
+    .section-aboutus .description{
+        font-size: 0.9rem;
+    }
+    .section-aboutus .feature .feature-icon{
+        max-width: 100%;
+    }
+    .section-aboutus .feature .feature-icon img{
+        max-width: 100%;
+    }
+    .section-aboutus .feature .feature-description{
+        font-size: 0.9rem;
+    }
+}
 
 
 
@@ -458,7 +530,8 @@ html {
 }
 
 .section-services .card-list .card-item .card .card-body .card-titleblock .card-title {
-    font-weight: 500;
+    font-size: 1.25rem;
+    font-weight: 800;
 }
 
 .section-services .card-list .card-item .card .card-body .card-icon {
@@ -476,7 +549,8 @@ html {
 }
 
 .section-services .card-list .card-item .card .card-body .card-text {
-    font-weight: 400;
+    font-weight: 600;
+    font-weight: 1rem;
     color: var(--card-read-more);
 }
 
@@ -487,7 +561,11 @@ html {
     right: 0;
 }
 
-
+@media screen and ( max-width: 1400px ) {
+    .section-services .card-list .card-item .card .card-body .card-titleblock .card-title {
+        font-size: 1rem;
+    }
+}
 
 
 
@@ -587,6 +665,7 @@ html {
 .section-whychooseus .description {
     color: var(--primary-light-color);
     font-weight: 500;
+    font-size: 1rem;
 }
 
 .section-whychooseus .feature-section {
@@ -606,12 +685,13 @@ html {
 .section-whychooseus .feature-section .feature-title {
     color: var(--background-color);
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 .section-whychooseus .feature-section .feature-desc {
     color: var(--accent-color);
     font-weight: 400;
+    font-size: 1rem;
 }
 
 .section-whychooseus .feature-section .feature-image {
@@ -620,10 +700,6 @@ html {
     bottom: 10%;
     right: 35%;
 }
-
-.section-whychooseus .discover button {}
-
-
 
 .section-whychooseus .image-bg {
     background-image: url('../images/section-6/section-half-bg.png');
@@ -651,7 +727,17 @@ html {
     font-weight: 600;
 }
 
-
+@media screen and ( max-width: 1400px ) {
+    .section-whychooseus .description {
+        font-size: 0.85rem;
+    }
+    .section-whychooseus .feature-section .feature-title{
+        font-size: 1rem;
+    }
+    .section-whychooseus .feature-section .feature-text img {
+        max-width: 70%;
+    }
+}
 
 
 
@@ -714,9 +800,9 @@ html {
 }
 
 .section-testomonial .card-item .card .card-body .card-title {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 28px;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.75rem;
     color: var(--primary-light-color);
 }
 
@@ -724,6 +810,12 @@ html {
     position: absolute;
     bottom: 0%;
     right: 0;
+}
+
+@media screen and ( max-width: 1400px ) {
+    .section-testomonial .card-item .card .card-body .card-title {
+        font-size: 0.95rem;
+    }
 }
 
 
@@ -777,7 +869,7 @@ html {
 .nav-link {
     background-color: var(--background-color);
     border-radius: 0px 36px 0px 0px !important;
-    font-weight: 500;
+    font-weight: 800;
     padding: 24px 32px 24px 32px;
 }
 
@@ -833,8 +925,8 @@ html {
     border: 0px;
     padding: 16px 20px;
     border-radius: 12px;
-    font-weight: 500;
-    color: var(--text-color);
+    font-weight: 700;
+    color: var(--primary-color);
 }
 
 .section-estimation .tab-content .tab-body .form-select {
@@ -842,14 +934,24 @@ html {
     border: 0px;
     padding: 16px 20px;
     border-radius: 12px;
-    font-weight: 500;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.section-estimation .tab-content .tab-body .form-label{
+    font-weight: 800;
+    color: var(--primary-color);
 }
 
 .section-estimate .tab-pane .tab-body .tab-title {
     font-weight: 800;
 }
 
-
+@media screen and ( max-width: 1400px) {
+    .section-estimation .tab-img {
+        max-width: 97%;
+    }
+}
 
 
 
@@ -898,6 +1000,17 @@ html {
     border-radius: 0px 0px 22px 22px;
 }
 
+.section-team .card-list .card-body .card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.section-team .card-list .card-body .card-text{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--primary-light-color);
+}
+
 .section-team .card-list .card-item .card .card-img-top {
     border-radius: 22px ;
     max-width: 100%;
@@ -910,6 +1023,7 @@ html {
     background-color: var(--background-color);
     border: 0;
     color: var(--text-color);
+    height: auto;
 }
 
 .section-team .background {
@@ -962,7 +1076,16 @@ html {
     border-radius: 0px 0px 20px 0px;
     position: relative;
 }
+.section-articles .card-list .card-item .card .article-body .card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
 
+.section-articles .card-list .card-item .card .article-body .readmorebtn{
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding-inline: 40px;
+}
 
 .section-articles .article-date {
     position: absolute;
@@ -1076,7 +1199,7 @@ html {
     font-weight: 500;
     color: var(--primary-light-color);
     border-radius: 20px 20px 0px 0px;
-    margin-top: -20px;
+    margin-top: 20px;
     max-width: 370px;
     border-bottom: 2px solid #ffffff2a;
 }
